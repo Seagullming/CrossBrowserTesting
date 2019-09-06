@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Eclipse\eclipse-workspace\CrossbrowserTesting\testng.xml</span>
+                    <span>C:\Eclipse\eclipse-workspace\CrossbrowserTesting\src\parallelTest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="parallelTest.CrossBrowserScript" hash-for-method="testParameterWithXML">testParameterWithXML</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="parallelTest.CrossBrowserScript" hash-for-method="TakeScreenshot">TakeScreenshot</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -125,9 +125,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testParameterWithXML">
-                  </a> <!-- testParameterWithXML -->
-                  <span class="method-name">testParameterWithXML</span>
+                  <a name="TakeScreenshot">
+                  </a> <!-- TakeScreenshot -->
+                  <span class="method-name">TakeScreenshot</span>
                   <div class="stack-trace">org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
 System info: host: &apos;DESKTOP-I2E0FP6&apos;, ip: &apos;192.168.10.141&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
@@ -140,12 +140,12 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:34)
+	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:42)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:36381/hub/status] to be available after 45001 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30908/hub/status] to be available after 45001 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:245)
 	... 27 more
@@ -163,7 +163,7 @@ Caused by: java.util.concurrent.TimeoutException
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Eclipse\eclipse-workspace\CrossbrowserTesting\testng.xml</span>
+            <span class="header-content">C:\Eclipse\eclipse-workspace\CrossbrowserTesting\src\parallelTest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -233,14 +233,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testParameterWithXML')
+data.setCell(0, 1, 'TakeScreenshot')
 data.setCell(0, 2, 'parallelTest.CrossBrowserScript')
 data.setCell(0, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -268,30 +268,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">parallelTest.CrossBrowserScript</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setup(Edge)</span>
+                <span class="method-name">setup(Chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
-                <span class="method-name">setup(Chrome)</span>
-                <span class="method-start">3 ms</span>
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">2 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">testParameterWithXML</span>
-                <span class="method-start">5254 ms</span>
+                <span class="method-name">TakeScreenshot</span>
+                <span class="method-start">15613 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testParameterWithXML</span>
-                <span class="method-start">6978 ms</span>
+                <span class="method-name">TakeScreenshot</span>
+                <span class="method-start">21108 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup(Firefox)</span>
-                <span class="method-start">7241 ms</span>
+                <span class="method-start">34589 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">testParameterWithXML</span>
-                <span class="method-start">62993 ms</span>
+                <span class="method-name">TakeScreenshot</span>
+                <span class="method-start">102332 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

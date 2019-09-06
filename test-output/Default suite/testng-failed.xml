@@ -5,8 +5,8 @@
     <classes>
       <class name="parallelTest.CrossBrowserScript">
         <methods>
+          <include name="TakeScreenshot"/>
           <include name="setup"/>
-          <include name="testParameterWithXML"/>
         </methods>
       </class> <!-- parallelTest.CrossBrowserScript -->
     </classes>
