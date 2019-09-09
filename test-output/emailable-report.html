@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">FirefoxTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">67,760</td><td></td><td></td></tr>
+<tr><td><a href="#t0">FirefoxTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">56,427</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">parallelTest.CrossBrowserScript</td><td><a href="#m0">setup</a></td><td rowspan="1">1567739162736</td><td rowspan="1">67641</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">parallelTest.CrossBrowserScript</td><td><a href="#m1">TakeScreenshot</a></td><td rowspan="1">1567739230479</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">parallelTest.CrossBrowserScript</td><td><a href="#m0">setup</a></td><td rowspan="1">1568070564164</td><td rowspan="1">56292</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">parallelTest.CrossBrowserScript</td><td><a href="#m1">TakeScreenshot</a></td><td rowspan="1">1568070620551</td><td rowspan="1">0</td></tr></tbody>
 </table>
 <h2>FirefoxTest</h2><h3 id="m0">parallelTest.CrossBrowserScript#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
@@ -25,12 +25,12 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:42)
+	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:50)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30908/hub/status] to be available after 45001 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:10313/hub/status] to be available after 45001 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:245)
 	... 27 more
@@ -52,12 +52,12 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:42)
+	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:50)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30908/hub/status] to be available after 45001 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:10313/hub/status] to be available after 45001 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:245)
 	... 27 more

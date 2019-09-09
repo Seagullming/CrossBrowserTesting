@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="67760" started-at="2019-09-06T15:06:02 NZST" finished-at="2019-09-06T15:07:10 NZST">
+  <suite name="Suite" duration-ms="56427" started-at="2019-09-10T11:09:24 NZST" finished-at="2019-09-10T11:10:20 NZST">
     <groups>
     </groups>
-    <test name="FirefoxTest" duration-ms="67760" started-at="2019-09-06T15:06:02 NZST" finished-at="2019-09-06T15:07:10 NZST">
+    <test name="FirefoxTest" duration-ms="56427" started-at="2019-09-10T11:09:24 NZST" finished-at="2019-09-10T11:10:20 NZST">
       <class name="parallelTest.CrossBrowserScript">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@1efed156]" name="setup" is-config="true" duration-ms="67641" started-at="2019-09-06T15:06:02 NZST" finished-at="2019-09-06T15:07:10 NZST">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:parallelTest.CrossBrowserScript@72b6cbcc]" name="setup" is-config="true" duration-ms="56292" started-at="2019-09-10T11:09:24 NZST" finished-at="2019-09-10T11:10:20 NZST">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:42)
+at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:50)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -55,7 +55,7 @@ at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30908/hub/status] to be available after 45001 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:10313/hub/status] to be available after 45001 ms
 at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:245)
 ... 27 more
@@ -70,7 +70,7 @@ at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="TakeScreenshot()[pri:0, instance:parallelTest.CrossBrowserScript@1efed156]" name="TakeScreenshot" duration-ms="0" started-at="2019-09-06T15:07:10 NZST" finished-at="2019-09-06T15:07:10 NZST">
+        <test-method status="SKIP" signature="TakeScreenshot()[pri:0, instance:parallelTest.CrossBrowserScript@72b6cbcc]" name="TakeScreenshot" duration-ms="0" started-at="2019-09-10T11:10:20 NZST" finished-at="2019-09-10T11:10:20 NZST">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Timed out waiting 45 seconds for Firefox to start.
@@ -91,7 +91,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:
 at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
 at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:42)
+at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:50)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -111,7 +111,7 @@ at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30908/hub/status] to be available after 45001 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:10313/hub/status] to be available after 45001 ms
 at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:245)
 ... 27 more

@@ -140,12 +140,12 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
-	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:42)
+	at parallelTest.CrossBrowserScript.setup(CrossBrowserScript.java:50)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:30908/hub/status] to be available after 45001 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:10313/hub/status] to be available after 45001 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
 	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:245)
 	... 27 more
@@ -240,7 +240,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -268,30 +268,30 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">parallelTest.CrossBrowserScript</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setup(Chrome)</span>
+                <span class="method-name">setup(Edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
-                <span class="method-name">setup(Edge)</span>
-                <span class="method-start">2 ms</span>
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">49 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">TakeScreenshot</span>
-                <span class="method-start">15613 ms</span>
+                <span class="method-start">11736 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TakeScreenshot</span>
-                <span class="method-start">21108 ms</span>
+                <span class="method-start">11778 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setup(Firefox)</span>
-                <span class="method-start">34589 ms</span>
+                <span class="method-start">40465 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">TakeScreenshot</span>
-                <span class="method-start">102332 ms</span>
+                <span class="method-start">96852 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

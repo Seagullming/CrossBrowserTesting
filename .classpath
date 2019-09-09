@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="C:/Users/dev/Desktop/TestingDriver/commons-io-2.6/commons-io-2.6-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dev/Desktop/TestingDriver/commons-io-2.6/commons-io-2.6-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dev/Desktop/TestingDriver/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dev/Desktop/TestingDriver/ashot-1.5.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
